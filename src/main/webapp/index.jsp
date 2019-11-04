@@ -6,9 +6,16 @@
         <title>Hello Java EE Continuous Delivery!</title>
     </head>
     <body>
-        <h1>Demo Project from Devops</h1>
-        <h1>Good day DEVOPS.....</h1>
-        <h1>Nice day AWS.....</h1>
+        <h1>Welcome to Tirumala Tech Solution ..!</h1>
+        <h1>Iam Using Devops To Develop My Project</h1>
+        <h1>Tool
+	    <li>Git-Hub </li>  
+	    <li>Maven</li>
+	    <li>SonarQube
+	    <li>Jenkins</li>
+	    <li>Ansible</li>
+	    <li>Tomcat</li>
+	 </h1>
         <h1>.... DEVOPS.....</h1>
 
 
@@ -32,7 +39,13 @@
 <td ><input type="Reset"></td>
 <td><input type="submit" onclick="return check(this.form)" value="Login"></td>
 </tr>
+<tr>
+	
+      <td>
+	      This Project is &copy rights to Tirumalareddy &rev 2019Nov4th
+     </td>
 
+</tr>
 </table>
     </body>
 </html>

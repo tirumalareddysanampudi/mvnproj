@@ -1,0 +1,6 @@
+projectKey=sathya:devops
+serverUrl=http://localhost:9000
+serverVersion=7.4.0.18908
+dashboardUrl=http://localhost:9000/dashboard?id=sathya%3Adevops
+ceTaskId=AW405ixjJvX02dLmSvHL
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AW405ixjJvX02dLmSvHL
