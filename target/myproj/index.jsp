@@ -17,7 +17,7 @@
                 <td><li>Java</li></td>
                 <td><li>Jenkins</li></td>
             </tr>
-            <tr><td>this project copy rights to &copy Tirumalareddy &rev 2019 Nov 4 </td></tr>
+            <tr><td>this project copy rights to &copy Tirumalareddy &rev 2019 Nov 4 th </td></tr>
         </table>
 
 
