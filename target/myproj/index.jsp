@@ -6,10 +6,19 @@
         <title>Hello Java EE Continuous Delivery!</title>
     </head>
     <body>
-        <h1>Demo Project from Devops</h1>
-        <h1>Good day DEVOPS.....</h1>
-        <h1>Nice day AWS.....</h1>
-        <h1>.... DEVOPS.....</h1>
+        <h1>Welcome To Tirumala Tech@Solutions...!</h1>
+        <table>
+            <tr bgcolor="black" border="10" color="red"> Village development Project </tr>
+          
+            <tr>
+                Project Requirenemt Tools
+                <td><li>Git</li></td>
+                <td><li>Maven</li></td>
+                <td><li>Java</li></td>
+                <td><li>Jenkins</li></td>
+            </tr>
+            <tr><td>this project copy rights to &copy Tirumalareddy &rev 2019 Nov 4 </td></tr>
+        </table>
 
 
 <table width="50%" bgcolor="pink" align="center" border="22">
