@@ -7,15 +7,15 @@
     </head>
     <body>
         <h1>Demo Project from Devops</h1>
-        <h1>Nice day DEVOPS.....</h1>
-        <h1>Nice day DEVOPS.....</h1>
-        <h1>Nice day DEVOPS.....</h1>
+        <h1>Git-Hub</h1>
+        <h1>Maven</h1>
+        <h1>Jenkins</h1>
 
 
-<table width="50%" bgcolor="pink" align="center" border="2">
+<table width="70%" bgcolor="red" align="center" border="2">
 
 <tr>
-<td colspan=2><center><font size=4><b>HTML Login Page</b></font></center></td>
+<td colspan=2><center><font size=8><b>HTML Login Page</b></font></center></td>
 </tr>
 
 <tr>
