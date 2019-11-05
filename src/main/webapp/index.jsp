@@ -16,7 +16,7 @@
 	    <li>Ansible</li>
 	    <li>Tomcat</li>
 	 </h1>
-        <h1>.... DEVOPS.....</h1>
+        
 
 
 <table width="50%" bgcolor="pink" align="center" border="22">
