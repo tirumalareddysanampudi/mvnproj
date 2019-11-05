@@ -17,9 +17,9 @@
 	    <li>Tomcat</li>
 	 </h1>
         
-	    <h2>this is sample myproj </h2>
+	    <h2 color="red">this is sample myproj </h2>
 
-<table width="50%" bgcolor="pink" align="center" border="22">
+<table width="50%" bgcolor="red" align="center" border="5">
 
 <tr>
 <td colspan=2><center><font size=4><b>HTML Login Page</b></font></center></td>
