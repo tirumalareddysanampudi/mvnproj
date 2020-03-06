@@ -95,6 +95,21 @@
                     <artifactId>maven-source-plugin</artifactId>
                     <version>2.4</version>
                 </plugin>
+		    
+		   <plugin> 
+		      <repository>
+                          <id>Tirumalareddy</id>
+                          <name>Tirumalareddy-internal-release</name>
+                           <url>http://18.219.57.142:8081/repository/maven-releases/</url>
+                      </repository>
+                      <snapshotRepository>
+                           <id>Tirumalareddy</id>
+                           <name>internal-release-snapshot</name>
+                           <url>http://18.219.57.142:8081/repository/maven-releases/</url>
+                       </snapshotRepository>
+		    
+		 </plugin>   
+		    
             </plugins>
         </pluginManagement>
         <plugins>
