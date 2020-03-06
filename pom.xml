@@ -31,14 +31,14 @@
     </developers>
     <distributionManagement>
         <repository>
-            <id>nexus</id>
+            <id>Nexus-deploy</id>
             <name>Internal Releases</name>
-            <url>http://35.225.145.102:8081/repository/maven-releases/</url>
+            <url>http://18.219.57.142:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>nexus</id>
+            <id>Nexus-deploy</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://35.225.145.102:8081/repository/maven-snapshots/</url>
+            <url>http://18.219.57.142:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
     <build>
@@ -94,22 +94,7 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-source-plugin</artifactId>
                     <version>2.4</version>
-                </plugin>
-		    
-		   <plugin> 
-		      <repository>
-                          <id>Tirumalareddy</id>
-                          <name>Tirumalareddy-internal-release</name>
-                           <url>http://18.219.57.142:8081/repository/maven-releases/</url>
-                      </repository>
-                      <snapshotRepository>
-                           <id>Tirumalareddy</id>
-                           <name>internal-release-snapshot</name>
-                           <url>http://18.219.57.142:8081/repository/maven-releases/</url>
-                       </snapshotRepository>
-		    
-		 </plugin>   
-		    
+                </plugin>   
             </plugins>
         </pluginManagement>
         <plugins>
