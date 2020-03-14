@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>sathya</groupId>
-    <artifactId>devops</artifactId>
-    <version>4.0</version>
+    <groupId>mavenproject</groupId>
+    <artifactId>myproject</artifactId>
+    <version>2.0</version>
     <packaging>war</packaging>
-    <name>myproj</name>
+    <name>myproj1</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -42,18 +42,18 @@
         </snapshotRepository>
     </distributionManagement>
     <build>
-    	<finalName>myproj</finalName>
+        <finalName>myproj</finalName>
         <pluginManagement>
             <plugins>
 <plugin>
-	<groupId>org.apache.tomcat.maven</groupId>
-	<artifactId>tomcat7-maven-plugin</artifactId>
-	<version>2.2</version>
-	<configuration>
-		<url>http://localhost:8080/manager/text</url>
-		<server>appserver</server>
-		<path>/myproj</path>
-	</configuration>
+        <groupId>org.apache.tomcat.maven</groupId>
+        <artifactId>tomcat7-maven-plugin</artifactId>
+        <version>2.2</version>
+        <configuration>
+                <url>http://localhost:8080/manager/text</url>
+                <server>appserver</server>
+                <path>/myproj</path>
+        </configuration>
 </plugin>
                 <plugin>
                     <artifactId>maven-compiler-plugin</artifactId>
@@ -94,7 +94,7 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-source-plugin</artifactId>
                     <version>2.4</version>
-                </plugin>   
+                </plugin>
             </plugins>
         </pluginManagement>
         <plugins>
