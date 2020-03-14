@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>mavenproject</groupId>
-    <artifactId>myproject</artifactId>
-    <version>2.0</version>
+    <groupId>sathya</groupId>
+    <artifactId>TestProject</artifactId>
+    <version>1.5</version>
     <packaging>war</packaging>
-    <name>myproj1</name>
+    <name>myproj</name>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
@@ -31,29 +31,29 @@
     </developers>
     <distributionManagement>
         <repository>
-            <id>Nexus-deploy</id>
-            <name>myproject Releases</name>
-            <url>http://3.133.123.87:8081/repository/maven-releases/</url>
+            <id>nexus</id>
+            <name>Internal Releases</name>
+            <url>http://35.188.195.20:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
-            <id>Nexus-deploy</id>
-            <name>myproject Snapshot Releases</name>
-            <url>http://3.133.123.87:8081/repository/maven-snapshots/</url>
+            <id>nexus</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://35.188.195.20:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
     <build>
-        <finalName>myproj</finalName>
+    	<finalName>myproj</finalName>
         <pluginManagement>
             <plugins>
 <plugin>
-        <groupId>org.apache.tomcat.maven</groupId>
-        <artifactId>tomcat7-maven-plugin</artifactId>
-        <version>2.2</version>
-        <configuration>
-                <url>http://localhost:8080/manager/text</url>
-                <server>appserver</server>
-                <path>/myproj</path>
-        </configuration>
+	<groupId>org.apache.tomcat.maven</groupId>
+	<artifactId>tomcat7-maven-plugin</artifactId>
+	<version>2.2</version>
+	<configuration>
+		<url>http://localhost:8080/manager/text</url>
+		<server>appserver</server>
+		<path>/myproj</path>
+	</configuration>
 </plugin>
                 <plugin>
                     <artifactId>maven-compiler-plugin</artifactId>
