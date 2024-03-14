@@ -6,10 +6,8 @@ environment{
 stages{
 stage('Git-Clone'){
  steps{
- 
+ git credentialsId: 'Git-Hub', url: 'https://github.com/tirumalareddysanampudi/mvnproj.git'
  }
 }
 }
-
-
 }
