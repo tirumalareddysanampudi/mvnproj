@@ -24,13 +24,5 @@ stage('Maven package'){
          sh "mvn package"
         }
     }
-    # stage('deploy'){
-    # steps{
-    #   sh """
-    #    sudo su -
-    #    cp /root/.jenkins/workspace/Pipeline-Git-checkout/target/myproj.war  /opt/tomcat9/webapps/
-    #   """
-    # }
-    # }
 }
 }
