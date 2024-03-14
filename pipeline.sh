@@ -14,5 +14,10 @@ steps{
  sh "mvn clean validate "
 }
 }
+stage('maven-compile'){
+steps{
+ sh "mvn compile"
+}
+}
 }
 }
