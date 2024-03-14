@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>sathya</groupId>
     <artifactId>TestProject</artifactId>
-    <version>2.5</version>
+    <version>1.5</version>
     <packaging>war</packaging>
     <name>myproj</name>
     <properties>
@@ -33,12 +33,12 @@
         <repository>
             <id>nexus</id>
             <name>Internal Releases</name>
-            <url>http://3.143.225.135:8081/repository/maven-releases/</url>
+            <url>http://35.188.195.20:8081/repository/maven-releases/</url>
         </repository>
         <snapshotRepository>
             <id>nexus</id>
             <name>Internal Snapshot Releases</name>
-            <url>http://3.143.225.135:8081/repository/maven-snapshots/</url>
+            <url>http://35.188.195.20:8081/repository/maven-snapshots/</url>
         </snapshotRepository>
     </distributionManagement>
     <build>
