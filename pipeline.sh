@@ -19,5 +19,10 @@ steps{
  sh "mvn compile"
 }
 }
+stage('maven-package'){
+steps{
+ sh "mvn package"
+}
+}
 }
 }
