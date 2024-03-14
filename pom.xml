@@ -25,22 +25,10 @@
     </scm>
     <developers>
         <developer>
-            <name>Arun Gupta</name>
-            <email>arun.gupta@gmail.com</email>
+            <name>TirumalaReddy</name>
+            <email>tirumalareddysanampudi@gmail.com</email>
         </developer>
     </developers>
-    <distributionManagement>
-        <repository>
-            <id>nexus</id>
-            <name>Internal Releases</name>
-            <url>http://35.188.195.20:8081/repository/maven-releases/</url>
-        </repository>
-        <snapshotRepository>
-            <id>nexus</id>
-            <name>Internal Snapshot Releases</name>
-            <url>http://35.188.195.20:8081/repository/maven-snapshots/</url>
-        </snapshotRepository>
-    </distributionManagement>
     <build>
     	<finalName>myproj</finalName>
         <pluginManagement>
@@ -102,16 +90,6 @@
                 <groupId>org.wildfly.plugins</groupId>
                 <artifactId>wildfly-maven-plugin</artifactId>
                 <version>1.0.2.Final</version>
-<!--
-                <executions>
-                    <execution>
-                        <phase>install</phase>
-                        <goals>
-                            <goal>deploy</goal>
-                        </goals>
-                    </execution>
-                </executions>
--->
             </plugin>
         </plugins>
     </build>
