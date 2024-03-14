@@ -9,5 +9,10 @@ stage('Git-Clone'){
  git credentialsId: 'Git-Hub', url: 'https://github.com/tirumalareddysanampudi/mvnproj.git'
  }
 }
+stage('maven build'){
+steps{
+ sh "mvn clean validate "
+}
+}
 }
 }
