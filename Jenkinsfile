@@ -14,7 +14,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/example/repo.git'
+                git branch: 'main', url: 'https://github.com/tirumalareddysanampudi/mvnproj.git'
             }
         }
         
